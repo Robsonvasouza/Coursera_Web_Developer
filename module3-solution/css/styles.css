@@ -1,0 +1,345 @@
+
+body {background-color: orange;}
+#header-nav {
+    background-color: aqua;
+    border-radius: 0;
+    border:0;
+
+}
+
+.navbar-brand {
+
+  font-size: 1.9 em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+  
+}
+#nav-list a {
+  color:black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+  
+}
+/* END HEADER */
+
+   
+.container { text-align: center;
+   
+   }
+   .container .Menu {font-size:1.8em;
+
+
+   }
+
+  #Chicken{
+    text-align: center;
+    font-size: 1.4em;
+  }
+  #Beef {
+    text-align: center;
+    font-size: 1.4em;
+   
+    
+  }
+  #Sushi {
+    text-align: center;
+    font-size: 1.4em;
+    
+    
+  
+  }
+  .paragraph{
+    border: 1px solid black;
+    text-align: justify;
+   margin-left:20px; 
+   margin-right:20px; 
+   border:auto; 
+   background:gray ;
+   padding:20px;
+    
+  }
+  
+
+
+/* Responsive Design*/
+/********** Medium devices only **********/
+@media (min-width: 992px)  {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    
+    padding:10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+
+  }
+
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+    
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+  }  
+  
+  
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12  {
+     
+      padding:10px;
+      margin-bottom: 15px;
+      margin-top: 15px;
+    }
+   
+    .col-sm-1 {
+      width: 8.33%;
+    }
+    .col-sm-2 {
+      width: 16.66%;
+    }
+    .col-sm-3 {
+      width: 50%;
+      
+  
+    }
+    .col-sm-4 {
+      width: 33.33%;
+    }
+    .col-sm-5{
+      width: 41.66%;
+    }
+    .col-sm-6 {
+      width: 50%;
+    }
+    .col-sm-7 {
+      width: 58.33%;
+    }
+    .col-sm-8 {
+      width: 66.66%;
+    }
+    .col-sm-9 {
+      width: 74.99%;
+    }
+    .col-sm-10 {
+      width: 83.33%;
+    }
+    .col-sm-11 {
+      width: 91.66%;
+    }
+    .col-sm-12  {
+      width: 50%;
+      }
+   
+  }
+  }  
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+      .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12
+        {
+          padding:10px;
+          margin-bottom: 5px;
+          margin-top: 15px;
+      }
+     
+      .col-xs-1 {
+        width: 8.33%;
+      }
+      .col-xs-2 {
+        width: 16.66%;
+      }
+      .col-xs-3 {
+        width: 50%;
+        
+    
+      }
+      .col-xs-4 {
+        width: 33.33%;
+      }
+      .col-sm-5{
+        width: 41.66%;
+      }
+      .col-xs-6 {
+        width: 50%;
+      }
+      .col-xs-7 {
+        width: 58.33%;
+      }
+      .col-xs-8 {
+        width: 66.66%;
+      }
+      .col-xs-9 {
+        width: 74.99%;
+      }
+      .col-xs-10 {
+        width: 83.33%;
+      }
+      .col-xs-11 {
+        width: 91.66%;
+      }
+      .col-xs-12  {
+        width: 50%;
+        }
+     
+    }
+    }  /* Home Page */
+     
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 10px;
+      font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+    .navbar-brand p { /* Kosher cert */
+      font-size: .6em;
+      margin-top: 12px;
+    }
+    .navbar-brand p img { /* Star-K */
+      height: 20px;
+    }
+  
+    #collapsable-nav a { /* Collapsed nav menu text */
+      font-size: 1.2em;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+      font-size: 1em;
+      margin-right: 5px;
+    }
+  
+    #call-btn > a {
+      font-size: 1.5em;
+      display: block;
+      margin: 0 20px;
+      padding: 10px;
+      border: 2px solid #fff;
+      background-color: #f6b319;
+      color: #951c49;
+    }
+    #xs-deliver {
+      margin-top: 5px;
+      font-size: .7em;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    /* End Header */
+  
+    /* Footer */
+    .panel-footer section {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .panel-footer section:nth-child(3) {
+      margin-bottom: 0; /* margin already exists on the whole row */
+    }
+    .panel-footer section hr {
+      width: 50%;
+    }
+    /* End Footer */
+  
+    /* Home Page */
+    .container .jumbotron {
+      margin-top: 30px;
+      padding: 0;
+    }
+    #menu-tile, #specials-tile {
+      width: 360px;
+      margin: 0 auto 15px;
+    }
+  
+    .menu-item-photo {
+      margin-right: auto;
+    }
+    .menu-item-tile .menu-item-price {
+      text-align: center;
+    }
+    .menu-item-description {
+      text-align: center;;
+    }
+  }
+  
